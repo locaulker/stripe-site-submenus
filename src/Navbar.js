@@ -26,23 +26,21 @@ const Navbar = () => {
         <ul className='nav-links'>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Products
+              products
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Developers
+              developers
             </button>
           </li>
           <li>
             <button className='link-btn' onMouseOver={displaySubmenu}>
-              Company
+              company
             </button>
           </li>
         </ul>
-        <button className='btn signin-btn' onMouseOver={displaySubmenu}>
-          Sign In
-        </button>
+        <button className='btn signin-btn'>sign in</button>
       </div>
     </nav>
   )
