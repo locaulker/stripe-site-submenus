@@ -252,7 +252,8 @@ Stripe Styles
     background: transparent;
     border-color: transparent;
     font-size: 1.1rem;
-    color: white;
+    /* color: white; */
+    color: #a553e7;
     /* text-transform: capitalize; */
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -281,7 +282,7 @@ Stripe Styles
     justify-self: center;
   }
   .phone-img {
-    width: 12rem;
+    width: 19rem;
   }
 }
 
@@ -299,7 +300,7 @@ Stripe Styles
     align-self: end;
   }
   .phone-img {
-    width: 15rem;
+    width: 21rem;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -307,7 +308,7 @@ Stripe Styles
     padding-bottom: 20vh;
   }
   .phone-img {
-    width: 17rem;
+    width: 24rem;
   }
 }
 
